@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Hoja de Vida : Jean Piere Juarez Campos</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/funcion.js"></script>
+</head>
+<body>
+	<div class="cuerpo div_0">
+		<div class="imagen_svg"><img src="img/img_svg.svg"></div>
+	</div>
+	<div class="cuerpo div_1">
+		<h1>Hoja de Vida</h1>
+		<h2>Jean Piere Juarez Campos</h2>
+		<h3>Lugar de Nacimiento: Chosica</h3>
+		<h3>Fecha de Nacimiento: 22/03/1990</h3>
+	</div>
+	<div class="cuerpo div_2">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educaci&oacute;n</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>		
+	</div>
+	
+	<div class="cuerpo2 div_3">
+		<h2>Educaci&oacute;n</h2>
+		<table>
+			<tr>
+				<th style="width: 20% !important">A&ntilde;o</th>
+				<th style="width: 40% !important">Instituci&oacute;n</th>	
+				<th style="width: 20% !important">Lugar</th>	
+				<th style="width: 20% !important">¿Culmin&oacute;?</th>	
+			</tr>
+			<tr>
+				<td>2012</td>
+				<td>ULADECH - Ing. Sistemas</td>
+				<td>Piura</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2014</td>
+				<td>USIL - PMP</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			
+		</table>
+
+		<h3>Agregar Estudios</h3>
+		<form method="POST" action="">
+			<div class="study_add">
+				<b>A&ntilde;o : </b>
+				<select id="anno" name="anno">
+					<option>2016</option>
+					<option>2017</option>
+					<option>2018</option>
+					<option selected>2019</option>
+				</select>
+			</div>
+			<div class="study_add">
+				<b>Instituci&oacute;n : </b>
+				<input type="text" name="institucion" id="institucion" style="width: 79%">
+			</div>
+			<div class="study_add">
+				<div style="float: left;"><b>Lugar : </b></div>
+				<div style="float: left;width: 87%"><textarea name="lugar" id="lugar" style="width: 100%"></textarea></div>
+			</div>
+			<div class="study_add">
+				<b>Culmin&oacute; : </b>
+				<label for="SI">SI</label><input type="radio" name="culmino" id="SI" value="SI">
+				<label for="NO">NO</label><input type="radio" name="culmino" id="NO" value="NO">
+			</div>
+			<br><br><br>
+			<input type="button" onclick="return validar_exp()" value="Enviar">
+		</form>
+	</div>
+
+	<div class="cuerpo div_5">
+		Contacto
+		<ol>
+			<li>Telefono: 966422599</li>
+			<li>Correo: <a href="mail:jeanpiere@juarezcampos.net">jeanpiere@juarezcampos.net</a></li>
+			<li>Redes Sociales: facebook.com/RomeoSoft</li>
+			<li>Direcci&oacute;n: Lima</li>
+		</ol>
+	</div>
+</body>
+</html>
